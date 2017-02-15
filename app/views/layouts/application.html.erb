@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--http://higginsweb.psych.columbia.edu/-->
+<html>
+
+<head>
+    <title>Haim Lab</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+            <%= csrf_meta_tags %>
+</head>
+
+<body>
+    <div id="page" class="hfeed">
+        <header id="branding" role="banner">
+            <hgroup>
+                <h1 id="site-title"><span><a href="https://medicine.uiowa.edu/microbiology/profile/hillel-haim/" rel="home">Haim Lab</a></span></h1>
+                <h2 id="site-description">Hillel Haim's Lab | University of Iowa</h2>
+            </hgroup>
+
+            <nav id="access" role="navigation">
+                <h3 class="assistive-text">Main menu</h3>
+
+                <div class="menu-navigation-container">
+                    <ul id="menu-navigation" class="menu">
+                        <li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="/">Home</a></li>
+                        <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/browse/research">Research Areas</a></li>
+                        <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="#">Current Projects</a></li>
+                        <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="#">People</a></li>
+                        <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="/browse/publications">Publications</a></li>
+                        <li id="menu-item-98" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-98"><a href="#">Tools</a></li>
+                        <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="#">Useful Links</a></li>
+                        <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="/browse/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- #access -->
+        </header>
+        <!-- #branding -->
+
+        <%= yield %>
+
+            <footer id="colophon" role="contentinfo">
+
+
+
+                <div id="site-generator">
+                    <a href="#/" title="Lab Information">@Copyright 2017 | Haim Lab</a>
+                </div>
+            </footer>
+            <!-- #colophon -->
+    </div>
+    <!-- #page -->
+
+    <div style="display:none">
+    </div>
+
+
+
+</body>
+
+</html>

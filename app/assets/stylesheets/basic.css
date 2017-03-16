@@ -1,0 +1,254 @@
+body {
+    background-color: #EFF0F1;
+}
+
+#site-title a {
+    color: #1982d1;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.borders{
+	position: relative;
+	border: 2px solid #333333;
+    margin-top: 0% ;
+    margin-bottom: 0% ;
+    margin-right: 5% ;
+    margin-left: 5% ;
+    background: #fff;
+}
+.borders:before{
+      content: " ";
+      position: absolute;
+      z-index: -1;
+      top: 2px;
+      left: 2px;
+      right: 2px;
+      bottom: 2px;
+}
+.pictures{
+      position: relative;
+      border: 1px solid black;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+      margin-left: 5px;
+      background-color: black;
+}
+.pictures div{
+      display: inline-block;
+}
+.f_common {
+      height: 190px;
+      width: 100% ;
+      display: inline-block;
+      overflow: hidden;
+}
+.f_1 img {
+     height: auto;
+     max-width: 150px;
+     width: auto\ 9; /* ie8 */
+}
+.f_2 img {
+     position: relative;
+     float: left;
+     width: 150px;
+     height: 150px;
+     background-position: 50% 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: auto\ 9;
+}
+.f_3 img {
+     position: relative;
+     float: right;
+     width: 150px;
+     height: 150px;
+     background-position: 50% 50% ;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.block1 {
+     width: 410 px;
+     height: 310 px;
+     text-align: justify;
+     float:left;
+}
+.block2 {
+     padding-left: 50px;
+}
+.block3 {
+     width: 378px;
+     height: 310px;
+     text-align: justify;
+     float: left;
+}
+.clearfix {
+     clear: both
+}
+.first div {}
+.third {
+     float: right;
+}
+.borders_1 {
+     position: relative;
+     margin-top: 0% ;
+     margin-bottom: 0% ;
+     margin-right: 5% ;
+     margin-left: 5% ;
+     background: #fff;
+}
+.page-header {
+     padding-bottom: 9px;
+     margin: 40px 0 20px;
+     border-bottom: 1px solid #eee;
+}
+
+.page {
+    background: #fff;
+    position: relative;
+    margin-right: 5% ;
+    margin-left: 5% ;
+    border: 1px solid #bbb;
+}
+#in_page_spacing {
+            margin-right: 5% ;
+            margin-left: 5% ;
+}
+#colophon {
+        margin-right: 10% ;
+        margin-left: 10% ;
+ }
+#supplementary {
+        border-top: 1px solid #ddd;
+        padding: 1.625em 7.6%;
+        overflow: hidden;
+}
+
+/* Site Generator Line */
+#site-generator {
+        background: #f9f9f9;
+        color: #666;
+        font-size: 12px;
+	line-height: 2.2em;
+	padding: 2.2em 0.5em;
+	text-align: center;
+}
+#site-generator a {
+        color: #555;
+	font-weight: bold;
+}
+
+
+/*  Menu-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- * /
+
+#access {
+	background: #222; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#252525, #0a0a0a);
+	background: -o-linear-gradient(#252525, #0a0a0a);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#252525, #0a0a0a);
+	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 auto 6px;
+	width: 100%;
+}
+#access ul {
+	font-size: 13px;
+	list-style: none;
+	margin: 0 0 0 -0.8125em;
+	padding-left: 0;
+}
+#access li {
+	float: left;
+	position: relative;
+}
+#access a {
+	color: #eee;
+	display: block;
+	line-height: 3.333em;
+	padding: 0 1.2125em;
+	text-decoration: none;
+}
+#access ul ul {
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	display: none;
+	float: left;
+	margin: 0;
+	position: absolute;
+	top: 3.333em;
+	left: 0;
+	width: 188px;
+	z-index: 99999;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	background: #f9f9f9;
+	border-bottom: 1px dotted #ddd;
+	color: #444;
+	font-size: 13px;
+	font-weight: normal;
+	height: auto;
+	line-height: 1.4em;
+	padding: 10px 10px;
+	width: 168px;
+}
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+	background: #efefef;
+}
+#access li:hover > a,
+#access a:focus {
+	background: #f9f9f9; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+	color: #373737;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+#access .current-menu-item > a,
+#access .current-menu-ancestor > a,
+#access .current_page_item > a,
+#access .current_page_ancestor > a {
+	font-weight: bold;
+}
+
+.button_box {
+         display: inline-block;
+}
+.intro {
+         padding-top: 20px;
+         padding-bottom: 40px;
+         text-align: justify;
+}

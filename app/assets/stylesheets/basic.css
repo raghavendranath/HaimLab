@@ -262,7 +262,7 @@ h2 {
     max-width: 1008px;
     display: block;
     position: relative;
-    margin: 20px 5% 0 5%;
+    margin: 20px auto;
     border: 4px solid black;
     overflow: hidden;
     border-style: 30px solid

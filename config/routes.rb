@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
   root 'browse#index'
-  get 'browse/publications'
-  get 'browse/research'
   get '/contact_us' => 'browse#contact'
   get '/about' => 'browse#about'
   get '/' => 'browse#index'
   get '/links' => 'browse#links'
-
+  get '/publications' => 'browse#publications'
+  get '/tools' => 'browse#tools'  
+  get '/datasets' => 'browse#datasets'  
+  get '/research' => 'browse#research'  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

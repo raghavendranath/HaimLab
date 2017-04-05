@@ -19,6 +19,7 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
     clear: both;
 }
+
 h2 {
     display: block;
     font-size: 1.5em;
@@ -277,6 +278,7 @@ h2 {
     margin-top: -16px;
     z-index: 9999;
     cursor: pointer;
+    color: black;
 }
 .cycle-prev{left: 10%;}
 .cycle-next{right: 10%;}
@@ -295,13 +297,13 @@ h2 {
     width: 10px;
     height: 10px;
     display: inline-block;
-    border: 1px solid #FFFFFF;
+    border: 1px solid black;
     border-radius: 50%;
     margin:  0 10px;
     
 }
 .cycle-pager .cycle-pager-active{
-    background-color: #FFFFFF;
+    background-color: black;
     
 }
 

@@ -3,33 +3,32 @@
         <div id="in_page_spacing">
 
             <div class="row">
+                <div class="col-lg-12">
+                        <div class="cycle-slideshow" data-cycle-fx="scrollHorz"
+    data-cycle-pause-on-hover="true"
+    data-cycle-speed="200" style="align: center">
+                            <span class="cycle-prev">&#9001</span>
+                            <span class="cycle-next">&#9002</span>
+                            <span class="cycle-pager"></span>
+                                <img src="/images/ELS Illustration.jpg" alt="ELS Illustration">
+                                <img src="/images/fig8.jpg">
+                                <img src="/images/img_mountains_wide.jpg">
+                        </div>
+                    </div>    
+                        <br>
                         <div class="col-lg-12">
                     <h1 class="page-header">Welcome to our website! </h1>
                     <div class="intro">
-                        <div class="col-lg-5">
+                        <div class="col-lg-12">
                             <div>
-
                                 <p style="font-size: 20px">
                                     Viruses apply an array of mechanisms to resist inactivation by host antibodies. Many viruses can change the structure of their proteins by mutations. Viruses can also mask conserved elements on their surface proteins or increase their structural stability. In our lab we try understand these molecular and evolutionary evasion mechanisms to design strategies that can improve antibody-based vaccines. Two complementary research programs, <b><span style="color: green">molecular</span></b> and <b><span style="color: blue">computational</span></b>, apply different tools from the fields of chemistry, physics, structural biology and mathematics to achieve this goal.
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-7">
-                         <div class="cycle-slideshow" data-cycle-fx="scrollHorz"
-    data-cycle-pause-on-hover="true" data-cycle-timeout="10000" data-cycle-caption-plugin="caption2" data-cycle-overlay-fx-out="slideUp"
-    data-cycle-overlay-fx-in="slideDown" 
-    data-cycle-speed="200" style="align: center">
-                             <div class="cycle-caption"></div>
-    <div class="cycle-overlay"></div>
-                            <span class="cycle-prev">&#9001</span>
-                            <span class="cycle-next">&#9002</span>
-                            <!--<span class="cycle-pager"></span>-->
-                                <img src="/images/ELS Illustration.jpg"  data-cycle-desc="Energy landscape of the HIV-1 Envs">
-                                <img src="/images/Fig8.jpg"  data-cycle-desc="Diffusional Expansion of HIV-1 Env properties">
-                                <img src="/images/Evolution as a Diffusion Process.jpg" data-cycle-desc="HIV-1 Env evolution; from in-host volatility to population-level diversity">
-                        </div>
+                        
 
-</div>
+
                         <br/>
                     </div>
 

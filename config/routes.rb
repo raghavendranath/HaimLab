@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   get '/publications' => 'browse#publications'
   get '/tools' => 'browse#tools'  
   get '/datasets' => 'browse#datasets'  
-  get '/research' => 'browse#research'  
+  get '/research1' => 'browse#research1'  
+    get '/research2' => 'browse#research2'  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

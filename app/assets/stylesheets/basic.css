@@ -133,8 +133,8 @@ h2 {
     border: 1px solid #bbb;
 }
 #in_page_spacing {
-            margin-right: 5% ;
-            margin-left: 5% ;
+            margin-right: 4% ;
+            margin-left: 4% ;
 }
 #colophon {
         margin-right: 10% ;
@@ -257,10 +257,9 @@ h2 {
          display: inline-block;
 }
 
-
 .cycle-slideshow {
     width: 100%;
-    max-width: 1008px;
+    max-width: 670px;
     display: block;
     position: relative;
     margin: 20px auto;
@@ -305,6 +304,48 @@ h2 {
 .cycle-pager .cycle-pager-active{
     background-color: black;
     
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.cycle-prev:hover, .cycle-next:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.cycle-pager{
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    z-index: 999;
+}
+
+.cycle-pager span{
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin:  0 10px;
+    
+}
+.cycle-pager .cycle-pager-active{
+    background-color: black;
+    
+}
+
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay { 
+    font-family: tahoma, arial;
+     bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+    font-weight: bold;
 }
 
 * {box-sizing:border-box}
@@ -352,6 +393,125 @@ h2 {
 .active {
   background-color: #717171;
 }
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(256,256,256,0.5);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+/* drop down menu*/
+.dropbtn {
+    background-color: #222;
+    color: #9d9d9d;
+    padding: 13px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+.dropbtn:hover {
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: #9d9d9d;
+    background-color: #222;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #9d9d9d;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #222;;
+}
+
+
+
 
 /* Fading animation */
 .fade {

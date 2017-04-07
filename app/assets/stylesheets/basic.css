@@ -258,14 +258,16 @@ h2 {
 }
 
 .cycle-slideshow {
-    width: 100%;
-    max-width: 670px;
+    max-width: 100%;
     display: block;
     position: relative;
     margin: 20px auto;
     border: 4px solid black;
     overflow: hidden;
-    border-style: 30px solid
+    border-style: 30px solid;
+    height: auto;
+    width: auto\9; /* ie8 */
+    
     }
 
 .cycle-prev, .cycle-next {
@@ -336,6 +338,12 @@ h2 {
     
 }
 
+.cycle-slide {
+    left: 0px; top: 0px; display: block; visibility: visible; position: absolute; z-index: 99; opacity: 1;
+    height: auto;
+    width: auto\9; /* ie8 */
+    max-width: 100%;
+}
 /* caption */
 .cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
 

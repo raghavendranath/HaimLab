@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get '/' => 'browse#index'
   get '/links' => 'browse#links'
   get '/publications' => 'browse#publications'
-  #get '/tools' => 'browse#tools'  
+  get '/tools' => 'browse#tools'  
   get '/datasets' => 'browse#datasets'  
   get '/research1' => 'browse#research1'  
     get '/research2' => 'browse#research2'  

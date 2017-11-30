@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+
+public/assets/.sprockets-manifest-d0908d88e4e036042e92e3895d61da1e.json
